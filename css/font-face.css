@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Assistant;
+    font-weight: 200;
+    src: url(../fonts/Assistant-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Assistant;
+    font-weight: 300;
+    src: url(../fonts/Assistant-Light.ttf);
+}
+
+@font-face {
+    font-family: Assistant;
+    font-weight: 400;
+    src: url(../fonts/Assistant-Regular.ttf);
+}
+
+@font-face {
+    font-family: Assistant;
+    font-weight: 500;
+    src: url(../fonts/Assistant-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Assistant;
+    font-weight: 600;
+    src: url(../fonts/Assistant-Bold.ttf);
+}
+
+@font-face {
+    font-family: Assistant;
+    font-weight: 700;
+    src: url(../fonts/Assistant-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: CheddarJack;
+    font-style: 400;
+    src: url(../fonts/Cheddar-Jack.ttf);
+}
+
+@font-face {
+    font-family: Swistblnk;
+    font-style: 400;
+    src: url(../fonts/Swistblnk-Duwhoers-Brush.ttf);
+}
