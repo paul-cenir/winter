@@ -3,7 +3,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, p, span, div {
-    color: #ffffff;
+    color: #fe0000;
 }
 
 .col-centered {
@@ -26,4 +26,16 @@ h1, h2, h3, h4, h5, p, span, div {
     font-size: 40px;
     color: #fe0000;
     cursor: pointer;
+}
+
+.header-container .header-menu-icon-1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #4099ff;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    color: white;
 }
