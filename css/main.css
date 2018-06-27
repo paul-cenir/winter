@@ -43,3 +43,23 @@ html, body {
     transform: rotate(-6deg);
     line-height: 2.98;
 }
+
+.global-text-style-2 {
+    font-family: RunWild;
+    color: #1a80b7;
+    font-size: 84PX;
+    transform: rotate(-6deg);
+    line-height: 0.98;
+}
+
+.global-text-style-3 .title-june {
+    font-size: 24px;
+    line-height: 1.38;
+    color: #fe0000;
+}
+
+.global-text-style-3 .description-june {
+    color: #f2ece3;
+    font-size: 24px;
+    line-height: 1.38;
+}
