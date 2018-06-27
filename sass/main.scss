@@ -1,10 +1,12 @@
 $primary-color: #ffffff;
-$body-color: #151c1b;
+$body-color: #000000;
 
 
 
 
-
+html,body {
+    background-color: $body-color;
+}
 h1,h2,h3,h4,h5,p,span {
     color: $primary-color;
 }
