@@ -1,13 +1,13 @@
 $primary-color: #ffffff;
 $body-color: #000000;
-
+$global-color-1 : #fe0000;
 
 
 
 html,body {
     background-color: $body-color;
 }
-h1,h2,h3,h4,h5,p,span {
+h1,h2,h3,h4,h5,p,span,div {
     color: $primary-color;
 }
 
@@ -16,18 +16,18 @@ h1,h2,h3,h4,h5,p,span {
     float: none ;
 }
 
-
-#header {
-    padding: 30px 0;
-    height: 92px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    transition: all 0.5s;
-    z-index: 997;
-}
-
-.peter-navbar-collapse {
-    justify-content: end;
+//css for header start
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+    .header-title {
+        color:$global-color-1;
+    }
+    .header-menu-icon {
+        font-size: 40px;
+        color:$global-color-1;
+        cursor:pointer;
+    }
 }

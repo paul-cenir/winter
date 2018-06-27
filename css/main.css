@@ -2,7 +2,7 @@ html, body {
     background-color: #000000;
 }
 
-h1, h2, h3, h4, h5, p, span {
+h1, h2, h3, h4, h5, p, span, div {
     color: #ffffff;
 }
 
@@ -11,17 +11,19 @@ h1, h2, h3, h4, h5, p, span {
     float: none;
 }
 
-#header {
-    padding: 30px 0;
-    height: 92px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    transition: all 0.5s;
-    z-index: 997;
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
 }
 
-.peter-navbar-collapse {
-    justify-content: end;
+.header-container .header-title {
+    color: #fe0000;
+}
+
+.header-container .header-menu-icon {
+    font-size: 40px;
+    color: #fe0000;
+    cursor: pointer;
 }
