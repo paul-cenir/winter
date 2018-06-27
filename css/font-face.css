@@ -45,3 +45,15 @@
     font-style: 400;
     src: url(../fonts/Swistblnk-Duwhoers-Brush.ttf);
 }
+
+@font-face {
+    font-family: RunWild;
+    font-style: 400;
+    src: url(../fonts/run_wild-webfont.woff);
+}
+
+@font-face {
+    font-family: RunWild;
+    font-style: 400;
+    src: url(../fonts/run_wild-webfont.woff2);
+}

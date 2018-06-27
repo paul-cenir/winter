@@ -2,10 +2,6 @@ html, body {
     background-color: #000000;
 }
 
-h1, h2, h3, h4, h5, p, span, div {
-    color: #fe0000;
-}
-
 .col-centered {
     display: inline-block;
     float: none;
@@ -38,4 +34,12 @@ h1, h2, h3, h4, h5, p, span, div {
     /* text-align: center; */
     align-items: center;
     color: white;
+}
+
+.global-text-style-1 {
+    font-family: RunWild;
+    color: white;
+    font-size: 74px;
+    transform: rotate(-6deg);
+    line-height: 2.98;
 }

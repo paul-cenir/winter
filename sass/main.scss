@@ -1,4 +1,4 @@
-$primary-color: #fe0000;
+$primary-color: #f2ece3;
 $body-color: #000000;
 $global-color-1 : #fe0000;
 
@@ -7,9 +7,7 @@ $global-color-1 : #fe0000;
 html,body {
     background-color: $body-color;
 }
-h1,h2,h3,h4,h5,p,span,div {
-    color: $primary-color;
-}
+
 
 .col-centered {
     display: inline-block ;
@@ -43,3 +41,12 @@ h1,h2,h3,h4,h5,p,span,div {
         color: white;
     }
 }
+
+//div row and col
+    .global-text-style-1 {
+        font-family: RunWild;
+        color: white;
+        font-size: 74px;
+        transform: rotate(-6deg);
+        line-height: 2.98;
+    }
