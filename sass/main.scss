@@ -59,17 +59,26 @@ html,body {
         font-size: 84PX;
         transform: rotate(-6deg);
         line-height: 0.98;
-    }
+      
+        }
+.subscribe {
+    width: 88%;
+    /* height: 33px; */
+    font-family: Karla;
+    font-size: 28px;
+    line-height: 3.38;
+    color: #f2ece3;
+        }     
 
 // MONTH
 .global-text-style-3{
     // font-family: Karla;
- .title-june {
+ .title {
         font-size: 24px;
         line-height: 1.38;
         color:$global-color-1
     }
-    .description-june {
+    .description {
         color: $primary-color;
         font-size: 24px;
         line-height: 1.38;

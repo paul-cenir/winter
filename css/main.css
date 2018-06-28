@@ -52,13 +52,22 @@ html, body {
     line-height: 0.98;
 }
 
-.global-text-style-3 .title-june {
+.subscribe {
+    width: 88%;
+  /* height: 33px; */
+    font-family: Karla;
+    font-size: 28px;
+    line-height: 3.38;
+    color: #f2ece3;
+}
+
+.global-text-style-3 .title {
     font-size: 24px;
     line-height: 1.38;
     color: #fe0000;
 }
 
-.global-text-style-3 .description-june {
+.global-text-style-3 .description {
     color: #f2ece3;
     font-size: 24px;
     line-height: 1.38;
