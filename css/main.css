@@ -218,3 +218,12 @@ html, body {
 img.img-fluid.bird {
     margin-top: 36%;
 }
+
+img.logo {
+    margin-left: 104%;
+    margin-bottom: -36%;
+}
+
+img.logo-1 {
+    height: 36px;
+}
