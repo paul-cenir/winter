@@ -63,6 +63,9 @@ html,body {
             display: flex;
             justify-content: center;
         }
+        .RK-WINTER {
+            margin-top: 14%;
+        }
     }
 
 
@@ -131,8 +134,9 @@ html,body {
 //right side home
 .right-side-paragraph {
     font-size: 24px;
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     color: #f2ece3;
+    margin-left: 4%;
 }
 .right-side-home{
     .global-text-style-3{
@@ -154,6 +158,9 @@ html,body {
     display: flex;
     justify-content: space-around;
     margin-left: 70%;
+    .author-2 {
+        margin-top: 48%;
+    }
 }
 
 
@@ -168,12 +175,23 @@ html,body {
     .order-print {
         margin-top: 22%;
     }
+    .amazon {
+        font-family: 'Karla', sans-serif;
+        font-size: 24px;
+        line-height: 1.38;
+        color: #1a80b7;
+    }
 }
 // impreted
 .impreted {
     font-family:'Karla', sans-serif;
     font-size: 24px;
     color: #f2ece3;
+    margin-bottom: 10%;
+    margin-left: 60px;
+    .dive {
+        margin-left: -3em;
+    }
 }
 
 //right parag
@@ -206,3 +224,8 @@ html,body {
     margin-top: 32px;
 }
 
+
+img.img-fluid.bird {
+   
+    margin-top: 36%;
+}
