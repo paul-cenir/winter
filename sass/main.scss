@@ -17,6 +17,12 @@ html,body {
     float: none ;
 }
 
+//global css for buttons
+.global-button-1 {
+    width: 100%;
+}
+
+
 //css for header start
 .header-container {
     display: flex;
@@ -63,14 +69,13 @@ html,body {
         transform: rotate(-6deg);
         line-height: 0.98;
       
-        }
+}
 .subscribe {
-    width: 88%;
-    /* height: 33px; */
     font-family: Karla;
     font-size: 28px;
     line-height: 3.38;
     color: #f2ece3;
+
         }     
 
 // MONTH
@@ -86,4 +91,10 @@ html,body {
         font-size: 24px;
         line-height: 1.38;
     }
+}
+
+//for forms input 
+.input-1-container {
+    max-width: 326px;
+    margin: auto;
 }
