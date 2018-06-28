@@ -58,6 +58,7 @@ html,body {
         font-size: 74px;
         transform: rotate(-6deg);
         line-height: 2.98;
+        margin-top: 4%;
     }
 
 //div row and col books news and events
@@ -68,15 +69,19 @@ html,body {
         font-size: 84PX;
         transform: rotate(-6deg);
         line-height: 0.98;
+        margin-top: 6%;
       
 }
 .subscribe {
-    font-family: Karla;
-    font-size: 28px;
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
     line-height: 3.38;
     color: #f2ece3;
 
         }     
+  .see-all {
+     margin-top: 34%;
+    }
 
 // MONTH
 .global-text-style-3{
@@ -96,5 +101,43 @@ html,body {
 //for forms input 
 .input-1-container {
     max-width: 326px;
-    margin: auto;
+    
+    input {
+        border-radius: 0px; 
+        height: 58px;
+        width: 448px;
+    }
+    button {
+        border-radius: 0px; 
+        height: 58px;
+        width: 448px;
+        background-color: #1a80b7
+    }
+}
+
+//footer
+.RK {
+    font-family: RunWild;
+    color: #f2ece3;
+    font-size: 20px;
+    margin-top: 14%;
+}
+
+//right side home
+.right-side-home{
+    .global-text-style-3{
+        margin-bottom: 60px;
+        margin-left: 6%;
+    }       
+    
+}
+
+//author footer
+.author {
+    font-family: RunWild;
+    font-size: 20px;
+    color: #f2ece3;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70%;
 }
