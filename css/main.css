@@ -146,6 +146,10 @@ html, body {
     text-align: center;
 }
 
+.book-1 .order-print {
+    margin-top: 22%;
+}
+
 .impreted {
     font-family: 'Karla', sans-serif;
     font-size: 24px;
