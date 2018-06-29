@@ -216,15 +216,8 @@ html, body {
     margin-top: 32px;
 }
 
-img.img-fluid.bird {
-    margin-top: 36%;
-}
-
-img.logo {
-    margin-left: 104%;
-    margin-bottom: -36%;
-}
-
-img.logo-1 {
-    height: 36px;
+.book-container-1 {
+    justify-content: space-between;
+    max-width: 720px;
+    margin: auto;
 }
