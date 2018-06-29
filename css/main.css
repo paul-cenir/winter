@@ -42,7 +42,7 @@ html, body {
     color: white;
 }
 
-.index-container-1 {
+.global-bg-background {
     background-image: url(../img/blackboard.png);
     margin: 0 -90px;
     padding: 0 90px;
