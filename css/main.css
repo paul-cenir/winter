@@ -97,57 +97,54 @@ html, body {
 }
 
 .input-1-container {
-    max-width: 326px;
+    max-width: 412px;
+    margin: auto;
 }
 
-.input-1-container input {
+.input-1-container input, .input-1-container button {
     border-radius: 0px;
     height: 58px;
-    width: 448px;
 }
 
 .input-1-container button {
-    border-radius: 0px;
-    height: 58px;
-    width: 448px;
     background-color: #1a80b7;
 }
 
-.RK {
+.foote-container {
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+}
+
+.foote-container .rk {
     font-family: RunWild;
     color: #f2ece3;
     font-size: 20px;
-    margin-top: 14%;
     margin-left: 16px;
 }
 
-.RK .RK-2 {
-    margin-top: 26%;
+.foote-container .author {
+    font-family: RunWild;
+    font-size: 20px;
+    color: #f2ece3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foote-container .author p {
+    margin-bottom: 0;
+    margin-right: 20px;
 }
 
 .right-side-paragraph {
     font-size: 24px;
     font-family: 'Karla', sans-serif;
     color: #f2ece3;
-    margin-left: 4%;
 }
 
 .right-side-home .global-text-style-3 {
     margin-bottom: 60px;
-    margin-left: 6%;
-}
-
-.author {
-    font-family: RunWild;
-    font-size: 20px;
-    color: #f2ece3;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 70%;
-}
-
-.author .author-2 {
-    margin-top: 48%;
 }
 
 .book-1 {
