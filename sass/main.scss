@@ -59,13 +59,17 @@ html,body {
         transform: rotate(-6deg);
         line-height: 2.98;
         margin-top: 4%;
+        .rk-winter-1 {
+            line-height: 1;
+        }
         .review{
             display: flex;
             justify-content: center;
         }
-        .RK-WINTER {
+        .RK-WINTER{
             margin-top: 14%;
         }
+        
     }
 
 
