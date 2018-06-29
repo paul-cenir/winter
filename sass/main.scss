@@ -51,6 +51,13 @@ html,body {
     }
 }
 
+.index-container-1 {
+    background-image: url(../img/blackboard.png);
+    margin: 0 -264px;
+    padding: 0 246px;
+}
+
+
 //div row and col news and events
     .global-text-style-1 {
         font-family: RunWild;
@@ -129,6 +136,9 @@ html,body {
 
 //footer
 .foote-container {
+    p {
+        margin-bottom: 0;
+    }
     justify-content: space-between;
     height: 120px;
     align-items: center;
