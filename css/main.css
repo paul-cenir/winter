@@ -73,6 +73,11 @@ html, body {
     margin-top: 6%;
 }
 
+.global-text-style-2 .news-letter {
+    font-size: 60px;
+    white-space: nowrap;
+}
+
 .subscribe {
     font-family: 'Karla', sans-serif;
     font-size: 22px;
@@ -221,4 +226,12 @@ html, body {
     max-width: 720px;
     margin: auto;
     align-items: center;
+}
+
+.global-text-style-2 .text-home {
+    margin-left: 10%;
+}
+
+.container-home {
+    margin-top: 80px;
 }

@@ -82,6 +82,10 @@ html,body {
         transform: rotate(-6deg);
         line-height: 0.98;
         margin-top: 6%;
+        .news-letter {
+            font-size: 60px;
+            white-space: nowrap;
+        }
       
 }
 .subscribe {
@@ -244,3 +248,13 @@ html,body {
     align-items: center;
 }
 
+//css for rk-home
+.global-text-style-2{
+    .text-home {
+        margin-left: 10%;
+    }
+}
+
+.container-home {
+    margin-top: 80px;
+}
