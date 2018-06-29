@@ -220,4 +220,5 @@ html, body {
     justify-content: space-between;
     max-width: 720px;
     margin: auto;
+    align-items: center;
 }
